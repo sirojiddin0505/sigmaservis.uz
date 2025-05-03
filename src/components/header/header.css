@@ -56,10 +56,13 @@ header{
 @media screen and (max-width:600px) {
     .header__container{
         height: 420px;
-        padding:0;
+        padding:20px 0;
     }
     .header__title{
         font-size: 38px;
         max-width: 350px;
+    }
+    .header__text{
+        padding-top: 20px;
     }
 }
