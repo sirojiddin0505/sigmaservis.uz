@@ -1,0 +1,119 @@
+
+.section__container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px 0px;
+}
+.section__span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 24px;
+    width: 400px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.icons{
+    width: 40px;
+    height: 35px;
+    color: #D81324;
+}
+.section__title{
+    font-size: 24px;
+    line-height: 30px;
+    color: #0B2154;
+}
+.section__img{
+    width: 410px;
+    height: 370px;
+}
+.section__subtitle{
+    color: #0B2154;
+}
+.section__info{
+    max-width: 386px;
+    color: #596277;
+    padding: 20px 0;
+    padding-bottom: 50px;
+}
+.section__box{
+    display: flex;
+    gap: 20px;
+    padding: 5px 0;
+}
+.section__text{
+    color: #596277;
+}
+.box__icon{
+    color: rgb(24, 138, 24);
+}
+.section__btn{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #D81324;
+    padding: 16px 48px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 4px;
+    border: none;
+}
+.section__btn:hover{
+    opacity: 75%;
+}
+
+@media screen and (max-width:1100px) {
+    .section__span{
+        width: 300px;
+    }
+    .section__img{
+        width: 310px;
+    }
+}
+@media screen and (max-width:850px) {
+    .section__container{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .section__span{
+        max-width: 100%;
+        width: 690px;
+    }
+    .section__info{
+        max-width: 350px;
+    }
+}
+@media screen and (max-width:700px) {
+    .section__container{
+        flex-direction: column; 
+        text-align: center;
+    }
+    .section__span{
+        width: 500px;
+    }
+    .section__img{
+        width: 500px;
+        height: 500px;
+        max-width: 90%;
+    }
+    .section__info{
+        max-width: 500px;
+    }
+    .right__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__btn{
+        margin: 30px auto;
+    }
+}
+@media screen and (max-width:500px) {
+    .section__span{
+        width: 350px;
+    }
+}

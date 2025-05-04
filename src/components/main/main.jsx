@@ -13,7 +13,7 @@ const main = () => {
             </div>
             <div className="main__right">
                 <p className="main__text">//biz haqimizda//</p>
-                <h2 className="main__title"><span>Sigma Avtoservis</span> - Avtomobomilingizga g'amxo'rlik qilish uchun eng yaxshi joy</h2>
+                <h2 className="main__title"><span>Sigma Avtoservis</span> - Avtomobilingizga g'amxo'rlik qilish uchun eng yaxshi joy</h2>
                 <p className="main__info">Biz ko'p yillik tajriba va professionallik bilan yuqori sifatli avtomobillarni ta'mirlash xizmatlarini taqdim etamiz. Bizning mutaxassislar jamoasi har qanday vaziyatda sizga yordam berishga tayyor.</p>
                 <div className="main__box">
                     <p className="box__text">01</p>
