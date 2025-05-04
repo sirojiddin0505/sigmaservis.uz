@@ -5,6 +5,8 @@ import Header from './components/header/header'
 import Hero from './components/hero/hero'
 import Main from './components/main/main'
 import Section from './components/section/section'
+import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
     <Hero/>
     <Main/>
     <Section/>
+    <Contact/>
+    <Footer/>
     </>
   )
 }

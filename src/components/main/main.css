@@ -10,7 +10,7 @@
     color: #D81324;
     font-size: 16px;
 }
-.main span{
+span{
     color: #D81324;
 }
 .main__title{
@@ -75,9 +75,12 @@
         text-align: center;
     }
     .main__title{
-        font-size: 26px;
+        font-size: 24px;
         max-width: 500px;
         margin: 0 auto;
+        text-align: center;
+    }
+    span{
         text-align: center;
     }
     .main__info{
