@@ -27,9 +27,20 @@ footer{
     flex-direction: column;
 }
 .footer__link{
+    display: flex;
+    align-items: center;
+    gap: 4px;
     font-size: 16px;
     color: #F2F2F2;
     padding: 4px 0;
+}
+.footer__link:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.footer__icons{
+    width: 25px;
+    height: 25px;
 }
 .footer__icon{
     color: #F2F2F2;

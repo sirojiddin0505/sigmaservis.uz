@@ -3,6 +3,7 @@ import './footer.css'
 import { FaArrowRight , FaInstagram, FaTelegram } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
+import { IoIosArrowDropright } from "react-icons/io";
 
 
 
@@ -23,14 +24,14 @@ const footer = ()=>{
                 </div>
                 <div className="footer__center">
                     <h2 className="footer__title">Xizmatlar</h2>
-                    <a href="" className="footer__link">Diagnostika</a>
-                    <a href="" className="footer__link">Dvigatelga texnik xizmat ko'rsatish</a>
-                    <a href="" className="footer__link">Shinalarni almashtirish</a>
-                    <a href="" className="footer__link">Yog' almashtirish</a>
-                    <a href="" className="footer__link">Burilish xizmati</a>
-                    <a href="" className="footer__link">Tonlash</a>
-                    <a href="" className="footer__link">Motorist</a>
-                    <a href="" className="footer__link">Kaspatrav</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Diagnostika</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/>  Dvigatelga texnik xizmat ko'rsatish</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Shinalarni almashtirish</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Yog' almashtirish</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Burilish xizmati</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Tonlash</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Motorist</a>
+                    <a href="" className="footer__link"><IoIosArrowDropright className="footer__icons"/> Kaspatrav</a>
                 </div>
                 <div className="footer__right">
                     <h2 className="footer__title">Kontaktlar</h2>

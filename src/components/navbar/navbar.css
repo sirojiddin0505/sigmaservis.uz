@@ -5,6 +5,7 @@ nav{
     left: 0;
     z-index: 100;
     background-color: rgb(255, 255, 255, 1);
+    box-shadow: 2px 2px 8px rgb(146, 145, 145);
 }
 .nav__container{
     padding: 10px;

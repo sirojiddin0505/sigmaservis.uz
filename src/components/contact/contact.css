@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 40px;
 }
 .box1{
     background-color: #f2f2f2;
@@ -40,10 +41,18 @@ span{
     color:#596277;
     font-size: 16px;
 }
+iframe{
+    max-width: 100%;
+    width: 1350px;
+    height: 600px;
+}
 
 @media screen and (max-width:1100px) {
     .box1{
         width: 400px;
+    }
+    iframe{
+        height: 400px;
     }
 }
 @media screen and (max-width:650px){
@@ -68,5 +77,8 @@ span{
     }
     .contact__link{
         font-size: 14px;
+    }
+    iframe{
+        height: 300px;
     }
 }

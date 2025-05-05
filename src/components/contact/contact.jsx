@@ -24,6 +24,7 @@ const contact = ()=>{
                         </span>
                     </div>
                 </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d11996.39274892076!2d69.2194!3d41.263198!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE1JzQ3LjUiTiA2OcKwMTMnMDkuOCJF!5e0!3m2!1sru!2sus!4v1746418301048!5m2!1sru!2sus" allowFullScreen="" loading="lazy" style={{}} referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     )

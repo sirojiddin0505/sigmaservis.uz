@@ -16,7 +16,7 @@
     max-width: 100%;
 }
 .icons{
-    width: 40px;
+    width: 45px;
     height: 35px;
     color: #D81324;
 }
@@ -115,5 +115,9 @@
 @media screen and (max-width:500px) {
     .section__span{
         width: 350px;
+        gap: 25px;
+    }
+    .section__title{
+        text-align: center;
     }
 }
